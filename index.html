@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Streaming Services</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="section">
+        <h2 class="section-title">Streaming Services</h2>
+        <div id="services-list" class="services-list services">
+            <!-- Add your streaming services here -->
+            <div class="service" draggable="true" data-service="Netflix">
+                <img src="./assets/netflix-logo.png" alt="Netflix">
+            </div>
+            <div class="service" draggable="true" data-service="Star+">
+                <img src="./assets/star-plus-logo.png" alt="Star+">
+            </div>
+            <div class="service" draggable="true" data-service="Disney+">
+                <img src="./assets/disney-plus-logo.png" alt="Disney+">
+            </div>
+            <div class="service" draggable="true" data-service="Hbo Max">
+                <img src="./assets/hbo-max-logo.png" alt="Hbo Max">
+            </div>
+            <div class="service" draggable="true" data-service="Apple Tv">
+                <img src="./assets/apple-tv-logo.png" alt="Apple Tv">
+            </div>
+            <div class="service" draggable="true" data-service="Paramount+">
+                <img src="./assets/paramount-plus-logo.png" alt="Paramount+">
+            </div>
+            <div class="service" draggable="true" data-service="Prime Video">
+                <img src="./assets/prime-video-logo.png" alt="Prime Video">
+            </div>
+            <div class="service" draggable="true" data-service="You Tube">
+                <img src="./assets/youtube-logo.png" alt="You Tube">
+            </div>
+        </div>
+    </div>
+    
+    <div class="section">
+        <h2 class="section-title">Favorites</h2>
+        <div id="favorites-list" class="services-list services">
+            <!-- Favorites list will be populated dynamically through JavaScript -->
+        </div>
+    </div>
+
+    <div id="recycle-bin" class="recycle-bin">
+        🗑️
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
